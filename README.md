@@ -1,6 +1,10 @@
-## Onion website
+## YHTML5-Seed
 
+YHTML5-Seed scaffolds out a new application, writing your build configuration (e.g fis3)
+and pulling in relevant build tasks and package manager dependencies (e.g npm) that you might need for your build   
+               
 ![npm version] ![node version] ![Build Status] ![downloads total] ![author]
+
 
 ### Quick Links
 - [Introduction](#introduction)
@@ -21,13 +25,18 @@
 
 ### Features  
   * Automagically wire-up dependencies installed with Bower
-  * 遵循百度前端开发规范(待翻译)
-  * 样式结构、模板引擎、业务逻辑解耦(待翻译)
-  * 前后端分离，使用json等交互数据(待翻译)
-  * 全端支持，全面支持浏览器、IOS、Android、HybirdApp、windows、Mac、Linux、TV(待翻译)
+  * Follow Baidu specification front-end development
+  * Style structure, template engine,decoupling business logic
+  * Front and rear ends separation, use json interactive data
+  * Full-side support, fully supported browser, IOS, Android, Hybrid App, windows, Mac, Linux, TV
   * Etc,etc
 
 ### Technology stack
+
+There are some Thchnology stack to deveolepmTent webapp: 
+
+#### 
+
 
   * AngularJS
   * AngularUI
@@ -51,7 +60,7 @@
 
 ## Getting Started  
 
-To get you started you can simply clone the yhtml5.github.io repository and install the dependencies:
+To get you started you can simply clone the angular-seed repository and install the dependencies:
 
 ### Prerequisites  
 
