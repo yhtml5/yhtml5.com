@@ -59,23 +59,11 @@ fis.match('/bower_components/bootstrap/dist/css/bootstrap.css', {
 });
 
 /*** custom resourse ***/
-fis.match('{/server/author.js, /components/**/*.js}', {
+fis.match('{/server/*.js, /components/**/*.js}', {
     packTo: '${project.static}/index.js'
 });
-fis.match('/server/author.js', {
-    packOrder: -89
-});
-fis.match('/components/js/directive.js', {
-    packOrder: -78
-});
-fis.match('/components/js/filter.js', {
-    packOrder: -77
-});
-fis.match('/components/js/router.js', {
-    packOrder: -76
-});
-fis.match('/components/js/ctrl.js', {
-    packOrder: -75
+fis.match('/server/console.js', {
+    packOrder: 2
 });
 fis.match('{/server/author.css,/components/**/*.css}', {
     packTo: '${project.static}/index.css'

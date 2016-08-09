@@ -143,5 +143,18 @@
 .y-progress-step .active .y-turn-blue {
     color: #099fdd;
 }
-
-
+.y-center-all-sm {
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+    height: 300px;
+}
+.y-hide{
+    display: none;
+}
+.y-quickLinks {
+    margin-bottom: 40px;
+    margin-top: -60px;
+    font-size: 32px;
+    color: #4c7dd4;
+}
