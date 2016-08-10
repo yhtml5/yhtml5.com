@@ -65,6 +65,9 @@ fis.match('{/server/*.js, /components/**/*.js}', {
 fis.match('/server/console.js', {
     packOrder: 2
 });
+fis.match('/server/console.js', {
+    packOrder: -59
+});
 fis.match('{/server/author.css,/components/**/*.css}', {
     packTo: '${project.static}/index.css'
 });
