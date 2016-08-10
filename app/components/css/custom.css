@@ -153,3 +153,22 @@
     font-size: 30px;
     opacity: 0.6;
 }
+
+.y-img{
+    width: 50%;
+    margin: auto;
+    min-width: 240px;
+    max-width: 600px;
+    margin-top: 30%;
+}
+
+@media screen and (max-width: 480px){
+    a{
+        width: 80px;
+        font-size: 14px !important;
+        text-align: center;
+    }
+    p{
+        font-size: 20px !important;
+    }
+}
