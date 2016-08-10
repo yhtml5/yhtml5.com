@@ -1,10 +1,20 @@
 /*
-* @require animation.css
-* @require bootstrap.base.css
-* @require bootstrap.component.css
+* @require components/css/animation.css
+* @require components/css/bootstrap.base.css
+* @require components/css/bootstrap.component.css
 */
 
 /*==================== custom bootstrap ====================*/
+.y-center-all {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    text-align: center;
+}
 
 .y-bgfull-md {
     width: 100%;
@@ -31,11 +41,15 @@
 }
 
 .y-card {
-    border-radius: 4px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
     border: solid 1px #e0e0e0;
     width: 90%;
     height: 280px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+       -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
     background-color: #fefefe;
     text-align: center;
     color: #2f2f2f;
@@ -56,17 +70,6 @@
 
 .y-card a {
     text-decoration: none;
-}
-
-.y-center-all {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 2;
-    text-align: center;
 }
 
 /*progressbar*/
@@ -102,7 +105,9 @@
     font-size: 16px;
     color: #fff;
     background: #a9a9a9;
-    border-radius: 50%;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
     margin: 0 auto 5px auto;
 }
 
@@ -144,12 +149,18 @@
 .y-progress-step .active .y-turn-blue {
     color: #099fdd;
 }
-
-.y-notice-info {
-    text-align: center;
-    margin: 40px auto;
-    color: #3c3c3c;
-    font-family: "microsoft yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    opacity: 0.6;
+.y-center-all-sm {
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+    height: 300px;
+}
+.y-hide{
+    display: none;
+}
+.y-quickLinks {
+    margin-bottom: 40px;
+    margin-top: -60px;
+    font-size: 32px;
+    color: #4c7dd4;
 }

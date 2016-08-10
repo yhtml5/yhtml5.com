@@ -1,0 +1,1104 @@
+/*!server/author.css*/
+
+/*=====================================================================
+ * Author:Kyle && qichao
+ * Website:http://yhtml5.com
+ * Gihub:https://github.com/yhtml5
+ * Description: We work hard to contribute our work back
+ *              to the web, mobile, server, & new technology.
+ *====================================================================*/
+
+/*!components/iconfont/iconfont.css*/
+@font-face {font-family: "iconfont";
+  src: url('./iconfont/iconfont.e639dac.eot?t=1461922206'); /* IE9*/
+  src: url('./iconfont/iconfont.e639dac.eot?t=1461922206#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./iconfont/iconfont.803fc1d.woff?t=1461922206') format('woff'), /* chrome, firefox */
+  url('./iconfont/iconfont.67bb3e5.ttf?t=1461922206') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./iconfont/iconfont.8c60f36.svg?t=1461922206#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-yonghu:before { content: "\e608"; }
+.icon-anzhuo:before { content: "\e619"; }
+.icon-shezhi:before { content: "\e600"; }
+.icon-qq:before { content: "\e615"; }
+.icon-sousuo:before { content: "\e611"; }
+.icon-guanbi:before { content: "\e607"; }
+.icon-ios:before { content: "\e61a"; }
+.icon-android:before { content: "\e604"; }
+.icon-pc:before { content: "\e61b"; }
+.icon-xiangzi:before { content: "\e60e"; }
+.icon-jibenxinxi:before { content: "\e61c"; }
+.icon-hanbaodaohang:before { content: "\e614"; }
+.icon-zongyonghushu:before { content: "\e609"; }
+.icon-wenhao:before { content: "\e612"; }
+.icon-yonghu1:before { content: "\e60a"; }
+.icon-mima:before { content: "\e61d"; }
+.icon-tuichu:before { content: "\e603"; }
+.icon-jiesuanxinxi:before { content: "\e61e"; }
+.icon-zhaoxiangji:before { content: "\e61f"; }
+.icon-zhuye:before { content: "\e606"; }
+.icon-shouyi:before { content: "\e60b"; }
+.icon-ios1:before { content: "\e616"; }
+.icon-icon:before { content: "\e617"; }
+.icon-kongxiangzi:before { content: "\e60f"; }
+.icon-shouyi1:before { content: "\e610"; }
+.icon-mimayaochi:before { content: "\e620"; }
+.icon-daohang:before { content: "\e613"; }
+.icon-zuzhibumen:before { content: "\e625"; }
+.icon-xiasanjiao:before { content: "\e605"; }
+.icon-xieyi3:before { content: "\e621"; }
+.icon-h501:before { content: "\e622"; }
+.icon-chanpinwendang:before { content: "\e618"; }
+.icon-yonghu2:before { content: "\e60c"; }
+.icon-shouyi2:before { content: "\e60d"; }
+.icon-zuzhijiagou:before { content: "\e626"; }
+.icon-jiahao:before { content: "\e602"; }
+.icon-zhifu:before { content: "\e601"; }
+.icon-arrow-right:before { content: "\e623"; }
+
+/*!components/css/bootstrap.component.css*/
+/*
+ * @require server/author.css
+ */
+
+/*==================== Expand bootstrap ====================*/
+
+.y-btn-blue {
+    color: #fff;
+    background-color: #099fdd;
+    border-color: #0799d9;
+}
+
+.y-btn-blue:focus,
+.y-btn-blue.focus,
+.y-btn-blue:hover {
+    color: #fff;
+    background-color: #0996d2;
+    border-color: #0794d1;
+}
+
+.y-btn-blue:active,
+.y-btn-blue.active,
+.open > .dropdown-toggle.y-btn-blue {
+    color: #fff;
+    background-color: #0996d2;
+    border-color: #0e5aa7;
+}
+
+.y-btn-blue:active:hover,
+.y-btn-blue.active:hover,
+.open > .dropdown-toggle.y-btn-blue:hover,
+.y-btn-blue:active:focus,
+.y-btn-blue.active:focus,
+.open > .dropdown-toggle.y-btn-blue:focus,
+.y-btn-blue:active.focus,
+.y-btn-blue.active.focus,
+.open > .dropdown-toggle.y-btn-blue.focus {
+    color: #fff;
+    background-color: #0794d0;
+    border-color: #1b6d85;
+}
+
+.y-btn-blue:active,
+.y-btn-blue.active,
+.open > .dropdown-toggle.y-btn-blue {
+    background-image: none;
+}
+
+.y-btn-blue.disabled:hover,
+.y-btn-blue[disabled]:hover,
+fieldset[disabled] .y-btn-blue:hover,
+.y-btn-blue.disabled:focus,
+.y-btn-blue[disabled]:focus,
+fieldset[disabled] .y-btn-blue:focus,
+.y-btn-blue.disabled.focus,
+.y-btn-blue[disabled].focus,
+fieldset[disabled] .y-btn-blue.focus {
+    background-color: #099fdd;
+    border-color: #0799d9;
+}
+
+.carousel-control.y-left,
+.carousel-control.y-right {
+    right: 0;
+    margin: auto;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    color: #999;
+    background-color: #f2f2f2;
+    padding-top: 6px;
+}
+
+.carousel-control.y-left:hover,
+.carousel-control.y-right:hover {
+    color: #00aaee;
+}
+
+.carousel-control.y-left .iconfont,
+.carousel-control.y-right .iconfont {
+    font-size: 26px;
+}
+
+.y-navbar-info {
+}
+
+.y-navbar-info .navbar-nav > li > a {
+    color: #333;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+    font-size: 16px;
+}
+
+.y-navbar-info .navbar-nav > li > a:hover,
+.y-navbar-info .navbar-nav > li > a:focus {
+    color: #099fdd;
+    background-color: transparent;
+}
+
+.y-navbar-info .navbar-nav > .active > a,
+.y-navbar-info .navbar-nav > .active > a:hover,
+.y-navbar-info .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #099fdd;
+}
+
+.y-navbar-info .navbar-toggle {
+    border-color: #099fdd;
+}
+
+.y-navbar-info .navbar-toggle:hover,
+.y-navbar-info .navbar-toggle:focus {
+    background-color: #f9f9f9;
+}
+
+.y-navbar-info .navbar-toggle .icon-bar {
+    background-color: #099fdd;
+}
+
+.y-navbar-info .navbar-collapse,
+.y-navbar-info .navbar-form {
+    border-color: #e7e7e7;
+}
+
+.y-pagination .y-active a,
+.y-pagination .y-active a:focus,
+.y-pagination .y-active a:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #40aaf2;
+    border-color: #40aaf2;
+}
+
+.table .y-td-xs {
+    max-width: 10px;
+}
+
+.table .y-td-sm {
+    max-width: 50px;
+}
+
+.table .y-td-md {
+    max-width: 100px;
+}
+
+.table .y-td-lg {
+    max-width: 324px;
+    min-width: 200px;
+}
+
+.table-hover:hover {
+    background-color: #e7f4fd;
+}
+
+/*!components/css/bootstrap.base.css*/
+/*
+ * @require components/css/bootstrap.component.css
+ */
+
+/*==================== Expand bootstrap ====================*/
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.text-indent-2 {
+    text-indent: 2em;
+}
+
+.text-xs-left {
+    text-align: left !important;
+}
+
+.text-xs-right {
+    text-align: right !important;
+}
+
+.text-xs-center {
+    text-align: center !important;
+}
+
+@media (min-width: 544px) {
+    .text-sm-left {
+        text-align: left !important;
+    }
+
+    .text-sm-right {
+        text-align: right !important;
+    }
+
+    .text-sm-center {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .text-md-left {
+        text-align: left !important;
+    }
+
+    .text-md-right {
+        text-align: right !important;
+    }
+
+    .text-md-center {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .text-lg-left {
+        text-align: left !important;
+    }
+
+    .text-lg-right {
+        text-align: right !important;
+    }
+
+    .text-lg-center {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text-xl-left {
+        text-align: left !important;
+    }
+
+    .text-xl-right {
+        text-align: right !important;
+    }
+
+    .text-xl-center {
+        text-align: center !important;
+    }
+}
+
+
+
+/*!components/css/animation.css*/
+/*
+ * @require components/css/bootstrap.base.css
+ * @require components/css/bootstrap.component.css
+ */
+
+/*==================== animation ====================*/
+/*.y-animation-bd-cl {*/
+    /*-webkit-transition: border-color 0.4s ease-out 0s;*/
+    /*-moz-transition: border-color 0.4s ease-out 0s;*/
+    /*transition: border-color 0.4s ease-out 0s;*/
+/*}*/
+
+/*.y-animation-bd-cl.y-info:hover,*/
+/*.y-animation-bd-cl.y-info:focus {*/
+    /*border-color: #099fdd;*/
+/*}*/
+
+/*.y-animation-color {*/
+    /*-webkit-transition: color 0.4s ease-out 0s;*/
+    /*-moz-transition: color 0.4s ease-out 0s;*/
+    /*transition: color 0.4s ease-out 0s;*/
+/*}*/
+
+/*.y-animation-color.y-info:hover,*/
+/*.y-animation-color.y-info:focus {*/
+    /*color: #099fdd;*/
+/*}*/
+
+/*.y-animation-color.y-dark:hover,*/
+/*.y-animation-color.y-dark:focus {*/
+    /*color: #555;*/
+/*}*/
+
+/*@keyframes bg-generator {*/
+    /*0% {*/
+        /*background-position: 0% 84%*/
+    /*}*/
+    /*50% {*/
+        /*background-position: 100% 17%*/
+    /*}*/
+    /*100% {*/
+        /*background-position: 0% 84%*/
+    /*}*/
+/*}*/
+
+/*@-webkit-keyframes bg-generator {*/
+    /*0% {*/
+        /*background-position: 0% 84%*/
+    /*}*/
+    /*50% {*/
+        /*background-position: 100% 17%*/
+    /*}*/
+    /*100% {*/
+        /*background-position: 0% 84%*/
+    /*}*/
+/*}*/
+
+/*.y-animation-bg {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-size: 600% 600%;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: -1;*/
+    /*animation: bg-generator 10s ease infinite;*/
+    /*-webkit-animation: bg-generator 50s ease infinite;*/
+    /*transition: -webkit-filter 0.2s ease, background-image 0.2s ease;*/
+/*}*/
+
+/*.y-animation-bg.y-soft {*/
+    /*background-color: #1c81df;*/
+    /*background-image: linear-gradient(223deg, rgb(76, 125, 212), rgb(228, 139, 164), rgb(0, 181, 180), rgb(141, 208, 136));*/
+/*}*/
+
+/*.y-animation-bg.y-colorful {*/
+    /*background-color: #8B00FF;*/
+    /*background-image: linear-gradient(223deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #00FFFF, #0000FF, #8B00FF);*/
+/*}*/
+
+
+.y-transition-border-info {
+    -webkit-transition: border-color 0.4s ease-out 0s;
+    -moz-transition: border-color 0.4s ease-out 0s;
+    transition: border-color 0.4s ease-out 0s;
+}
+
+.y-transition-border-info:hover,
+.y-transition-border-info:focus {
+    border-color: #099fdd;
+}
+
+.y-transition-info,
+.y-tsc-dark {
+    -webkit-transition: color 0.4s ease-out 0s;
+    -moz-transition: color 0.4s ease-out 0s;
+    transition: color 0.4s ease-out 0s;
+}
+
+.y-transition-info:hover,
+.y-transition-info:focus {
+    color: #099fdd;
+}
+.y-transition-dark:hover,
+.y-transition-dark:focus {
+    color: #555;
+}
+
+@-moz-keyframes bg-generator {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+@keyframes bg-generator {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+@-webkit-keyframes bg-generator {
+    0% {
+        background-position: 0% 84%
+    }
+    50% {
+        background-position: 100% 17%
+    }
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+.y-bg-transition-info {
+    background-color: #1c81df;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: -webkit-filter 0.2s ease, background-image 0.2s ease;
+    background: -webkit-linear-gradient(227deg, #4c7dd4, #e48ba4, #00b5b4, #8dd088);
+    background: -moz-linear-gradient(227deg, #4c7dd4, #e48ba4, #00b5b4, #8dd088);
+    background: linear-gradient(223deg, #4c7dd4, #e48ba4, #00b5b4, #8dd088);
+    -moz-background-size: 600% 600%;
+         background-size: 600% 600%;
+    -webkit-animation: bg-generator 50s ease infinite;
+    -moz-animation: bg-generator 10s ease infinite;
+         animation: bg-generator 10s ease infinite;
+}
+
+/*!components/css/custom.css*/
+/*
+* @require components/css/animation.css
+* @require components/css/bootstrap.base.css
+* @require components/css/bootstrap.component.css
+*/
+
+/*==================== custom bootstrap ====================*/
+.y-center-all {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    text-align: center;
+}
+
+.y-bgfull-md {
+    width: 100%;
+    padding: 20px 0px 60px 0px;
+    height: 60px;
+    min-height: 30px;
+    background-color: #fff;
+}
+
+.y-bgfull-sm {
+    width: 100%;
+    padding: 20px 0px 60px 0px;
+    height: 60px;
+    min-height: 30px;
+    background-color: #fff;
+}
+
+.y-bgfull-lg {
+    width: 100%;
+    padding: 20px 0px 60px 0px;
+    height: 60px;
+    min-height: 30px;
+    background-color: #fff;
+}
+
+.y-card {
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    border: solid 1px #e0e0e0;
+    width: 90%;
+    height: 280px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+       -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    background-color: #fefefe;
+    text-align: center;
+    color: #2f2f2f;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.y-card-default {
+    border: solid 2px #555;
+    padding: 30px 10px;
+    margin: auto;
+}
+
+.y-card i {
+    font-size: 60px;
+    color: #3f3f3f;
+}
+
+.y-card a {
+    text-decoration: none;
+}
+
+/*progressbar*/
+
+.y-progress-step {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-left: 0;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+.y-progress-step li {
+    list-style-type: none;
+    color: #a9a9a9;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.y-progress-step li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    line-height: 30px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    background: #a9a9a9;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    margin: 0 auto 5px auto;
+}
+
+/*progressbar connectors*/
+
+.y-progress-step li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #a9a9a9;
+    position: absolute;
+    left: -50%;
+    top: 14px;
+    z-index: -1;
+    /*put it behind the numbers*/
+}
+
+.y-progress-step li:first-child:after {
+    content: none;
+    /*connector not needed before the first step*/
+}
+
+/*marking active/completed steps green*/
+
+/*The number of the step and the connector before it = green*/
+
+.y-progress-step li.active:before,
+.y-progress-step li.active:after {
+    background: #099fdd;
+    color: white;
+}
+
+.y-progress-step li.active:before,
+.y-progress-step li.active:after {
+    background: #099fdd;
+    color: white;
+}
+
+.y-progress-step .active .y-turn-blue {
+    color: #099fdd;
+}
+.y-center-all-sm {
+    width: 30%;
+    min-width: 200px;
+    max-width: 400px;
+    height: 300px;
+}
+.y-hide{
+    display: none;
+}
+.y-quickLinks {
+    margin-bottom: 40px;
+    margin-top: -60px;
+    font-size: 32px;
+    color: #4c7dd4;
+}
+
+/*!components/css/box.css*/
+/*
+* @require components/css/animation.css
+* @require components/css/bootstrap.base.css
+* @require components/css/bootstrap.component.css
+* @require components/css/custom.css
+*/
+
+/*==================== box ====================*/
+.y-display-b {
+    display: block;
+}
+
+.y-display-ib {
+    display: inline-block;
+}
+
+.y-m-x-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.y-m-x-10 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.y-m-x-20 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.y-m-y-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.y-m-y-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.y-m-a-0 {
+    margin: 0;
+}
+
+.y-m-a-10 {
+    margin: 10px;
+}
+
+.y-m-a-20 {
+    margin: 20px;
+}
+
+.y-m-t-0 {
+    margin-top: 0;
+}
+
+.y-m-t-10 {
+    margin-top: 10px;
+}
+
+.y-m-t-20 {
+    margin-top: 20px;
+}
+
+.y-m-t-40 {
+    margin-top: 40px;
+}
+
+.y-m-t-80 {
+    margin-top: 80px;
+}
+
+.y-m-t-n-10 {
+    margin-top: -10px;
+}
+
+.y-m-t-n-20 {
+    margin-top: -20px;
+}
+
+.y-m-r-0 {
+    margin-right: 0;
+}
+
+.y-m-r-10 {
+    margin-right: 10px;
+}
+
+.y-m-r-20 {
+    margin-right: 20px;
+}
+
+.y-m-r-40 {
+    margin-right: 40px;
+}
+
+.y-m-r-80 {
+    margin-right: 80px;
+}
+
+.y-m-r-n-10 {
+    margin-right: -10px;
+}
+
+.y-m-r-n-20 {
+    margin-right: -20px;
+}
+
+.y-m-b-0 {
+    margin-bottom: 0;
+}
+
+.y-m-b-10 {
+    margin-bottom: 10px;
+}
+
+.y-m-b-20 {
+    margin-bottom: 20px;
+}
+
+.y-m-b-40 {
+    margin-bottom: 40px;
+}
+
+.y-m-b-80 {
+    margin-bottom: 80px;
+}
+
+.y-m-b-n-10 {
+    margin-bottom: -10px;
+}
+
+.y-m-b-n-20 {
+    margin-bottom: -20px;
+}
+
+.y-m-l-0 {
+    margin-left: 0;
+}
+
+.y-m-l-10 {
+    margin-left: 10px;
+}
+
+.y-m-l-20 {
+    margin-left: 20px;
+}
+
+.y-m-l-40 {
+    margin-left: 40px;
+}
+
+.y-m-l-80 {
+    margin-left: 80px;
+}
+
+.y-m-l-n-10 {
+    margin-left: -10px;
+}
+
+.y-m-l-n-20 {
+    margin-left: -20px;
+}
+
+.y-p-a-0 {
+    padding: 0;
+}
+
+.y-p-a-10 {
+    padding: 10px;
+}
+
+.y-p-a-20 {
+    padding: 20px;
+}
+
+.y-p-x-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.y-p-x-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.y-p-y-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.y-p-y-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.y-p-t-0 {
+    padding-top: 0;
+}
+
+.y-p-t-10 {
+    padding-top: 10px;
+}
+
+.y-p-t-20 {
+    padding-top: 20px;
+}
+
+.y-p-t-40 {
+    padding-top: 40px;
+}
+
+.y-p-t-80 {
+    padding-top: 80px;
+}
+
+.y-p-t-n-10 {
+    padding-top: -10px;
+}
+
+.y-p-t-n-20 {
+    padding-top: -20px;
+}
+
+.y-p-r-0 {
+    padding-right: 0;
+}
+
+.y-p-r-10 {
+    padding-right: 10px;
+}
+
+.y-p-r-20 {
+    padding-right: 20px;
+}
+
+.y-p-r-40 {
+    padding-right: 40px;
+}
+
+.y-p-r-80 {
+    padding-right: 80px;
+}
+
+.y-p-r-n-10 {
+    padding-right: -10px;
+}
+
+.y-p-r-n-20 {
+    padding-right: -20px;
+}
+
+.y-p-b-0 {
+    padding-bottom: 0;
+}
+
+.y-p-b-10 {
+    padding-bottom: 10px;
+}
+
+.y-p-b-20 {
+    padding-bottom: 20px;
+}
+
+.y-p-b-40 {
+    padding-bottom: 40px;
+}
+
+.y-p-b-80 {
+    padding-bottom: 80px;
+}
+
+.y-p-b-n-10 {
+    padding-bottom: -10px;
+}
+
+.y-p-b-n-20 {
+    padding-bottom: -20px;
+}
+
+.y-p-l-0 {
+    padding-left: 0;
+}
+
+.y-p-l-10 {
+    padding-left: 10px;
+}
+
+.y-p-l-20 {
+    padding-left: 20px;
+}
+
+.y-p-l-40 {
+    padding-left: 40px;
+}
+
+.y-p-l-80 {
+    padding-left: 80px;
+}
+
+.y-p-l-n-10 {
+    padding-left: -10px;
+}
+
+.y-p-l-n-20 {
+    padding-left: -20px;
+}
+
+.y-w-p-100 {
+    width: 100%;
+}
+
+.y-w-p-95 {
+    width: 95%;
+}
+.y-mt-p-100{
+    margin-top: 100%;
+}
+
+
+
+
+
+/*!components/css/base.css*/
+/*
+* @require components/css/animation.css
+* @require components/css/box.css
+* @require components/css/custom.css
+*/
+
+/*==================== base ====================*/
+
+.y-bgc-000 {
+    background-color: #000;
+}
+
+.y-bgc-333 {
+    background-color: #333;
+}
+
+.y-bgc-666 {
+    background-color: #666;
+}
+
+.y-bgc-999 {
+    background-color: #999;
+}
+
+.y-bgc-ccc {
+    background-color: #ccc;
+}
+
+.y-bgc-fff {
+    background-color: #fff;
+}
+
+.y-bgc-f5f5f5 {
+    background-color: #f5f5f5;
+}
+
+.y-bgc-ff0000 {
+    background-color: #ff0000;
+}
+
+.y-border-none {
+    border: none;
+}
+
+.y-cl-000 {
+    color: #000;
+}
+
+.y-cl-333 {
+    color: #333;
+}
+
+.y-cl-666 {
+    color: #666;
+}
+
+.y-cl-999 {
+    color: #999;
+}
+
+.y-cl-ccc {
+    color: #ccc;
+}
+
+.y-cl-ddd {
+    color: #ddd;
+}
+
+.y-cl-eee {
+    color: #eee;
+}
+
+.y-cl-fff {
+    color: #fff;
+}
+
+.y-cl-f5f5f5 {
+    color: #f5f5f5;
+}
+
+.y-cl-ff0000 {
+    color: #ff0000;
+}
+
+.y-fs-14 {
+    font-size: 14px;
+}
+
+.y-fs-16 {
+    font-size: 16px;
+}
+
+.y-fs-18 {
+    font-size: 18px;
+}
+
+.y-fs-24 {
+    font-size: 24px;
+}
+
+.y-fs-28 {
+    font-size: 28px;
+}
+
+.y-fs-36 {
+    font-size: 36px;
+}
+
+.y-fs-50 {
+    font-size: 50px;
+}
+
+.y-fs-90 {
+    font-size: 90px;
+}
+
+.y-fs-120 {
+    font-size: 120px;
+}
+
+.y-fw-b {
+    font-weight: 700;
+}
+
+.y-fw-n {
+    font-weight: 400;
+}
+.y-wt-p-100 {
+    width: 100%;
+}
+
+/*!components/css/angular.css*/
+/*
+ * @require components/css/bootstrap.base.css
+ * @require components/css/bootstrap.component.css
+ */
