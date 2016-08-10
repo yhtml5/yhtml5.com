@@ -67,6 +67,10 @@
     margin-top: 40px;
 }
 
+.y-m-t-60 {
+    margin-top: 60px;
+}
+
 .y-m-t-80 {
     margin-top: 80px;
 }
@@ -314,7 +318,8 @@
 .y-w-p-95 {
     width: 95%;
 }
-.y-mt-p-100{
+
+.y-mt-p-100 {
     margin-top: 100%;
 }
 
