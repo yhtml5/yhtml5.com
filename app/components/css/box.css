@@ -313,7 +313,9 @@
 .y-p-l-n-20 {
     padding-left: -20px;
 }
-
+.y-h-p-80{
+    height: 80%;
+}
 .y-w-p-100 {
     width: 100%;
 }
