@@ -149,7 +149,7 @@
 .y-notice-info {
     text-align: center;
     margin: 40px auto;
-    color: #3c3c3c;
+    color: #000;
     font-family: "microsoft yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 30px;
     opacity: 0.6;
@@ -160,6 +160,7 @@
     margin: auto;
     min-width: 240px;
     max-width: 600px;
+    opacity: 0.7;
 }
 .btn{
     display: inline-block;
@@ -187,7 +188,4 @@
 .y-a a:hover{
     /*color: #d43f3a;*/
     color: #6c6769;
-}
-.y-opacity-07{
-    opacity: 0.7;
 }
