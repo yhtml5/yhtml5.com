@@ -12,8 +12,8 @@ angular.module('yhtml5', [
     }])
     .config(function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider
-        //.when('/dashboard/*', '/dashboard')
-            .otherwise("")
+        /**.when('/dashboard/*', '/dashboard')**/
+            .otherwise("/");
         $stateProvider
             .state('dashboard', {
                 url: "/dashboard",

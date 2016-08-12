@@ -150,42 +150,54 @@
     text-align: center;
     margin: 40px auto;
     color: #000;
-    font-family: "microsoft yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "microsoft yahei";
     font-size: 30px;
     opacity: 0.6;
 }
 
-.y-img{
+.y-img {
     width: 50%;
     margin: auto;
     min-width: 240px;
-    max-width: 600px;
+    max-width: 500px;
     opacity: 0.7;
 }
-.btn{
+
+.btn {
     display: inline-block;
     margin-bottom: 1rem;
-    color: rgba(255,255,255,1);
-    background-color: rgba(255,255,255,.2);
-    border-color: rgba(255,255,255,.5);
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, .2);
+    border-color: rgba(255, 255, 255, .5);
     border-style: solid;
     border-width: 1px;
     border-radius: .3rem;
-    transition: color .2s,background-color .2s,border-color .2s;
+    transition: color .2s, background-color .2s, border-color .2s;
     margin-left: 10px;
     margin-right: 10px;
 }
-@media screen and (max-width: 480px){
-    a{
+
+@media screen and (max-width: 480px) {
+    a {
         display: block;
         width: 90%;
-        margin-top:10px;
+        margin-top: 10px;
     }
-    p{
+
+    p {
         font-size: 20px !important;
     }
 }
-.y-a a:hover{
+
+.y-a a:hover {
     /*color: #d43f3a;*/
     color: #6c6769;
+}
+
+.y-card-devoloping {
+
+}
+
+.ng-show {
+
 }

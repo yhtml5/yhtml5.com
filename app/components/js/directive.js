@@ -1,4 +1,6 @@
-
+/*
+ * @require router.js
+ */
 /************************* Require *****************************/
 angular.module('directive', [])
     .directive("repeat", [function() {
