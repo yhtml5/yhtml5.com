@@ -166,9 +166,9 @@
 .btn {
     display: inline-block;
     margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(255, 255, 255, .2);
-    border-color: rgba(255, 255, 255, .5);
+    /*color: rgba(255, 255, 255, 1);*/
+    /*background-color: rgba(255, 255, 255, .2);*/
+    /*border-color: rgba(255, 255, 255, .5);*/
     border-style: solid;
     border-width: 1px;
     border-radius: .3rem;

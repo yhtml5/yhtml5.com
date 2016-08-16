@@ -7,22 +7,25 @@ angular.module('yhtml5', [
     'controllers',
     'directive'
 ])
-    .config(['$compileProvider', function ($compileProvider) {
-        $compileProvider.aHrefSanitizationWhitelist(/^\s*(|blob|):/);
-    }])
     .config(function ($stateProvider, $urlRouterProvider) {
+        var domainUrl = "";
         $urlRouterProvider
         /**.when('/dashboard/*', '/dashboard')**/
             .otherwise("/");
         $stateProvider
-            .state('dashboard', {
-                url: "/dashboard",
+            .state('index', {
+                url: "/",
                 views: {
-                    "nav": {
-                        templateUrl: ""
-                    },
                     "content": {
-                        templateUrl: ""
+                        templateUrl: domainUrl + "view/developing/index.html"
+                    }
+                }
+            })
+            .state('design', {
+                url: "/design",
+                views: {
+                    "content": {
+                        templateUrl: domainUrl + "view/design/index.html"
                     }
                 }
             })

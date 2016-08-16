@@ -5,12 +5,12 @@
  */
 /************************* Ctrl *****************************/
 angular.module('controllers', [])
-    .controller('controllers', function($scope,$timeout) {
+    .controller('controllers', function($scope) {
+
+    })
+    .controller('devoloping', function($scope,$timeout) {
         S.init();
         $timeout(function () {
             $scope.devoloping=true
-        }, 8000);
-    })
-    .controller('smsConfirmCtrl', function($scope) {
-
+        }, 9000);
     })
