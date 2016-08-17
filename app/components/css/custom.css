@@ -150,9 +150,17 @@
     text-align: center;
     margin: 40px auto;
     color: #000;
-    font-family: "microsoft yahei";
     font-size: 30px;
     opacity: 0.6;
+}
+
+@media screen and (max-width: 480px) {
+    .y-notice-info {
+        margin: 10px auto;
+        color: #000;
+        font-size: 16px;
+        opacity: 0.6;
+    }
 }
 
 .y-img {
@@ -178,24 +186,17 @@
 }
 
 @media screen and (max-width: 480px) {
-    a {
+    .y-btn-ms-block {
         display: block;
         width: 90%;
-        margin-top: 10px;
-    }
-
-    p {
-        font-size: 20px !important;
+        font-size: 16px;
+        padding: 8px 10px;
+        margin: 10px auto;
     }
 }
 
 .y-a a:hover {
-    /*color: #d43f3a;*/
     color: #6c6769;
-}
-
-.y-card-devoloping {
-
 }
 
 .ng-show {

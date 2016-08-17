@@ -5,12 +5,17 @@
  */
 /************************* Ctrl *****************************/
 angular.module('controllers', [])
-    .controller('controllers', function($scope) {
+    .controller('controllers', function ($scope) {
 
     })
-    .controller('devoloping', function($scope,$timeout) {
-        S.init();
-        $timeout(function () {
-            $scope.devoloping=true
-        }, 9000);
-    })
+    .controller('devoloping', function ($scope, $timeout) {
+        var browserKeywordsMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Opera Mobi|Windows CE|Symbian|Windows Phone|POLARIS|lgtelecom|nokia|SonyEricsson|LG|SAMSUNG|Samsung/i;
+        if (browserKeywordsMobile.test(navigator.userAgent)) {
+            $scope.devolopingDisplay = true
+        } else {
+            S.init();
+            $timeout(function () {
+                $scope.devolopingDisplay = true
+            }, 9000);
+        }
+    });
