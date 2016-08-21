@@ -125,12 +125,19 @@
 .y-fw-n {
     font-weight: 400;
 }
-.y-of-h{
+
+.y-of-h {
     overflow: hidden;
 }
+
+.y-op-7 {
+    opacity: 0.7;
+}
+
 .y-wt-p-100 {
     width: 100%;
 }
+
 .y-svg svg {
     width: 100%;
     height: auto;

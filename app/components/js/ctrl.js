@@ -13,6 +13,7 @@ angular.module('controllers', [])
         if (browserKeywordsMobile.test(navigator.userAgent)) {
             $scope.devolopingDisplay = true
         } else {
+            $scope.devolopingBackground = true;
             S.init();
             $timeout(function () {
                 $scope.devolopingDisplay = true

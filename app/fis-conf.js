@@ -83,6 +83,7 @@ fis.match('/components/iconfont/iconfont.css', {
 /************************* Pro规范 *****************************/
 
 fis.media('pro')
+
     .match('/{static/**,{view,components,bower_components}/**/{*.{png,gif,jpg,jpeg,svg},glyphicons-halflings-regular.*,iconfont.{eot, svg, ttf, woff}}}', {
         useHash: true,
         domain: '.'

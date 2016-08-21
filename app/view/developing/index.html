@@ -1,7 +1,7 @@
-<div class="container y-animation-bg y-soft" ng-controller="devoloping">
+<div class="container" ng-class="{'y-animation-bg y-soft':devolopingBackground}" ng-controller="devoloping">
     <canvas class="canvas y-wt-p-100"></canvas>
     <div class="y-center-all y-w-p-100 y-h-p-90" ng-show="devolopingDisplay">
-        <img class="y-img" src="../../components/public/html5.png" alt="html5">
+        <img class="y-img" ng-class="{'y-op-7':devolopingBackground}" src="../../components/public/html5.png" alt="html5">
         <div class="y-m-t-20">
             <a href="https://github.com/yhtml5" class="btn btn-lg y-btn-blue y-btn-ms-block y-animation-shadow-info">Github</a>
             <a ui-sref="design" class="btn btn-lg y-btn-blue y-btn-ms-block y-animation-shadow-info">Design</a>
