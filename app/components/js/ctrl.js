@@ -6,7 +6,6 @@
 /************************* Ctrl *****************************/
 angular.module('controllers', [])
     .controller('controllers', function ($scope) {
-
     })
     .controller('devoloping', function ($scope, $timeout) {
         var browserKeywordsMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Opera Mobi|Windows CE|Symbian|Windows Phone|POLARIS|lgtelecom|nokia|SonyEricsson|LG|SAMSUNG|Samsung/i;
@@ -14,9 +13,6 @@ angular.module('controllers', [])
             $scope.devolopingDisplay = true
         } else {
             $scope.devolopingBackground = true;
-            S.init();
-            $timeout(function () {
-                $scope.devolopingDisplay = true
-            }, 9000);
+            $scope.devolopingDisplay = true
         }
     });
